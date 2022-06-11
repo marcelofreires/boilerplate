@@ -1,5 +1,7 @@
+import { Container, Title } from './styles'
+
 export const Main = () => (
-  <main>
-    <h1>React component</h1>
-  </main>
+  <Container id="main">
+    <Title id="title">Next.js boilerplate</Title>
+  </Container>
 )
