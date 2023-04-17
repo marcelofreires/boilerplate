@@ -1,7 +1,12 @@
-import { Container, Title } from './styles'
+import { Container, Mode, Title } from './styles'
 
-export const Main = () => (
+type Props = {
+  title: string
+}
+
+export const Main = ({ title }: Props) => (
   <Container id="main">
-    <Title id="title">Next.js boilerplate</Title>
+    <Title id="title">{title}</Title>
+    <Mode>{process.env.NODE_ENV}</Mode>
   </Container>
 )

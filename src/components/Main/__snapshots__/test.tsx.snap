@@ -8,6 +8,9 @@ exports[`<Main /> should render the component 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -25,6 +28,12 @@ exports[`<Main /> should render the component 1`] = `
   font-weight: 700;
 }
 
+.c2 {
+  color: #f6f7f9;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
 <main
   class="c0"
   id="main"
@@ -35,5 +44,10 @@ exports[`<Main /> should render the component 1`] = `
   >
     Next.js boilerplate
   </h1>
+  <p
+    class="c2"
+  >
+    test
+  </p>
 </main>
 `
