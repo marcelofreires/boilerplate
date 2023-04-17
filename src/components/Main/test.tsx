@@ -24,7 +24,7 @@ describe('<Main />', () => {
     })
   })
 
-  it('should render the background color correctly', () => {
+  it('should render the title color correctly', () => {
     const { container } = render(<Main />)
 
     expect(queryByText(container, 'Next.js boilerplate')).toHaveStyle({
